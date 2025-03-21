@@ -1,0 +1,49 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build directories
+/build/
+/bin/
+/dist/
+
+# Go-specific files
+*.log
+*.sum
+*.mod
+*.db
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary and swap files
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+
+# Go modules cache (optional)
+pkg/
+vendor/
+
+# Logs and debugging
+debug.log
+trace.out
+
+# Coverage files
+coverage.out
+
+# Environment files
+.env
+.env.*

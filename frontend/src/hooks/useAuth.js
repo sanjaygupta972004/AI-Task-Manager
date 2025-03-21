@@ -1,6 +1,6 @@
 import { useContext } from 'react'
-import { TaskContext } from '../context/TaskContext'
+import { AuthContext } from '../context/AuthContext'
 
-export const useTasks = () => {
-  return useContext(TaskContext)
+export const useAuth = () => {
+  return useContext(AuthContext)
 }
